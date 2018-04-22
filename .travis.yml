@@ -1,5 +1,7 @@
+sudo: required
 
 laguage: php
+php:
   - 7.1.5
   - 7.2
   - hhvm # on Trusty only
@@ -19,4 +21,4 @@ script:
 
 notifications:
   email: false
-  
+
