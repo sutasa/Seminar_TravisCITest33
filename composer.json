@@ -1,0 +1,30 @@
+{
+    "name": "Seminar_TravisCITest1",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "sutasa",
+        "homepage": "https://sutasa.github.io/"
+      }
+    ],
+    "require": {
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^6.5.5"
+    },
+    "autoload": {
+      "classmap": [
+        "app"
+      ]
+    },
+    "scripts": {
+      "test": "./vendor/bin/phpunit"
+    },
+    "config": {
+      "preferred-install": "dist",
+      "optimize-autoloader": true,
+      "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+  }
